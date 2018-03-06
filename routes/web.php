@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('hovinko');
 });
+
+Route::get('/prujem', function () {
+    return view('Průjem');
+});
