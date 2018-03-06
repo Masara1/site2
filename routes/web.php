@@ -18,3 +18,5 @@ Route::get('/', function () {
 Route::get('/prujem', function () {
     return view('Průjem');
 });
+
+//
